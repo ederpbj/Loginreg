@@ -18,3 +18,6 @@ Clonar repo git | `git clone https://github.com/ederpbj/Loginreg.git`
 Forçar push para git | `git push --force origin master`
 __Npm__ | ----
 node modules | `npm i`
+rodar em modo dev | `npm run dev`
+subir servidor | `npm start`
+Criar front react | `create-react-app client`

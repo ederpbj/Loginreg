@@ -31,7 +31,7 @@ users.post('/register', (req, res) => {
           userData.password = hash
           User.create(userData)
             .then(user => {
-              res.json({ status: user.email + 'Registered!' })
+              res.json({ status: user.email + '/ Registered!' })
             })
             .catch(err => {
               res.send('error: ' + err)
@@ -58,7 +58,7 @@ users.post('/login', (req, res) => {
           let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
             expiresIn: 1440
           })
-          res.send(token)
+          res.send("Seu token--> ",token)
         }
       } else {
         res.status(400).json({ error: 'User does not exist' })
