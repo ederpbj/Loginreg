@@ -19,4 +19,5 @@ Rotas dom | `npm i react-router-dom --save`
 ## Notas
 
 * no package.json colocar rota do servidor
+
 ** "proxy": "http://localhost:5000",
