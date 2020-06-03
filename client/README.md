@@ -12,7 +12,7 @@ Login com mysql, express, react e nodejs
 Descrição | Comando
 ----|----
 __Npm__ | ----
-Desencriptar jwt | `npm i axios jwt-decode --save`
+Descriptografar jwt | `npm i axios jwt-decode --save`
 Rotas dom | `npm i react-router-dom --save`
 
 
@@ -20,4 +20,4 @@ Rotas dom | `npm i react-router-dom --save`
 
 * no package.json colocar rota do servidor
 
-** "proxy": "http://localhost:5000",
+* * "proxy": "http://localhost:5000",
