@@ -5,6 +5,7 @@ Login com mysql, express, react e nodejs
 ## Links
 
 [Tutorial](https://www.youtube.com/watch?v=a1hhL9z-fbU&t=146s&ab_channel=MoreCodes)
+[Git origin](https://github.com/ArjunAranetaCodes/MoreCodes-Youtube/tree/master/mern-mysql-login-reg)
 
 ## Comandos 
 
