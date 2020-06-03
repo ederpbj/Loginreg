@@ -2,6 +2,10 @@
 
 Login com mysql, express, react e nodejs
 
+## Links
+
+[Tutorial](https://www.youtube.com/watch?v=a1hhL9z-fbU&t=146s&ab_channel=MoreCodes)
+
 ## Comandos 
 
 Descrição | Comando
