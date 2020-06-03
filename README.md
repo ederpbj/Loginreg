@@ -21,3 +21,6 @@ node modules | `npm i`
 rodar em modo dev | `npm run dev`
 subir servidor | `npm start`
 Criar front react | `create-react-app client`
+Ir para pasta cliente | `cd client`
+Iniciar Client | `yarn start`
+Iniciar Client | `npm i dotenv`

@@ -1,16 +1,22 @@
 const Sequelize = require('sequelize')
-const db = {}
-const sequelize = new Sequelize('nodejs_login1', 'root', '098098my', {
-  host: 'localhost',
-  dialect: 'mysql',
-  operatorsAliases: false,
+require('dotenv/config');
 
-  pool: {
-    max: 5,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
-  }
+const db = {}
+const sequelize = new Sequelize(
+  process.env.DB_TABLE,
+  process.env.DB_NAME,
+  process.env.DB_PASS,
+  {
+    host: process.env.DB_HOST,
+    dialect: 'mysql',
+    operatorsAliases: false,
+
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 10000
+    }
 })
 
 db.sequelize = sequelize

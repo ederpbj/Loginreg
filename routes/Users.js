@@ -10,6 +10,10 @@ users.use(cors())
 process.env.SECRET_KEY = 'secret'
 
 users.post('/register', (req, res) => {
+  require('dotenv').config({  
+    path: process.env.NODE_ENV === "test" ? ".env.testing" : ".env"
+  })
+  
   const today = new Date()
   const userData = {
     first_name: req.body.first_name,
