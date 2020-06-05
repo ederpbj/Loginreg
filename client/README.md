@@ -3,6 +3,8 @@
 ## Front-end
 
 Login com mysql, express, react e nodejs
+[Git client](https://github.com/ArjunAranetaCodes/MoreCodes-Youtube/tree/master/mern-mysql-login-reg/client)
+
 
 ## Links
 
@@ -44,5 +46,12 @@ __Roteiro__
 
   * Navbar.js
 
+  * Register.js
+
   * Login
 
+  * Profile.js
+
+* Modificar src/App
+
+  * Importar components
